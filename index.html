@@ -1,19 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
     <title>Kandace Dietz Partylite and The Body Shop</title>
 </head>
 <body>
-  
+    <header class="jumbotron">
+        <div class="container-fluid"></div>
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-dark sticky-top">
+                        <a class="navbar-brand" id="myLogo" href="index.html"> Kandace Dietz</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#VRmainNavbar" aria-controls="VRmainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="VRmainNavbar">
+                            <ul class="navbar-nav justify-content-end text-right mt-0">
+                                <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Partylite</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> The Body Shop</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> My Story</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End of Jumbotron-->
     
+    <!--main body-->
+    <div class="container-fluid">
+        <div class="row mb-4">
+            <div id="partylite" class="card col-sm-6 card text-center" style="width: 18rem;">
+                <img src="images/partyliteLogo.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Partylite</h5>
+                  <p class="card-text">Check out my Partylite site to purchase candles or accessories.</p>
+                  <a href="#" class="btn btn-primary">Shop</a>
+                </div>
+              </div>
+              <div id="body" class="card col-sm-6 card text-center" style="width: 18rem;">
+                <img src="images/bodyShop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Body Shop</h5>
+                  <p class="card-text">Check out my The Body Shop site to purchase personal care items.</p>
+                  <a href="#" class="btn btn-primary">Shop</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!--Beginning of footer-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row nav justify-content-center nav-pills">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Partylite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">The Body Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">My Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-right">
+                    <a role="button" class="btn btn-link" href="tel:+5555555555"><i class="fa fa-phone fa-lg text-primary"></i> 1-555-555-5555 </a>
+                </div>
+                <div class="col">
+                    <a role="button" class="btn btn-link" href="mailto:ksquared9595@gmail.com"><i class="fa fa-envelope fa-lg text-primary"></i> Email me</a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <!--End of Footer-->
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
